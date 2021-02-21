@@ -1,0 +1,66 @@
+.bank-client {
+    /* height: 24px;
+    width: 101px; */
+    color: #2F0079;
+    font-family: Roboto, sans-serif;
+    font-size: 21px;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 24px;
+    padding-left: 20px;
+  }
+  
+  .line-3 {
+    box-sizing: border-box;
+    height: 1px;
+    width: 100%;
+    border: 1px solid rgba(47,0,121,0.1);
+  }
+
+  
+.bg {
+    height: 160px;
+    width: 260px;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    box-shadow: 0 10px 20px -6px rgba(0,0,0,0.15);
+    display:inline-block;
+    position:relative;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+  }
+  
+  
+  
+  .button-background {
+    height: 48px;
+    width: 160px;
+    border-radius: 24px;
+    background-color: #2F0079;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.35px;
+    line-height: 24px;
+    box-shadow: 0 10px 20px -5px rgba(47,0,121,0.3);
+  }
+
+  .card-frame-empty {
+    height: 124px;
+    width: 217px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    background-image: url("../assets/img/ID-bg.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  
