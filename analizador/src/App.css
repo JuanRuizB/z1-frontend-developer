@@ -5,11 +5,7 @@
 }
 
 .body {
-  /* width: 375px;
-  height: 667px; */
   border: 15px;
-  /* margin: 20px; */
-  
 }
 
 
@@ -28,8 +24,6 @@
 }
 
 .take-a-picture-it-m {
-  /* height: 48px;
-  width: 314px; */
   color: #000000;
   font-family: Roboto;
   font-size: 16px;
@@ -40,3 +34,46 @@
 }
 
 
+
+.border-green {
+  border-color: lightgreen;
+  border: 4px solid;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.border-red {
+  border-color: red;
+  border: 4px solid;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
+.text-red {
+  color: red;
+  padding: 10px;
+  font-family: Roboto;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 16px;
+  background-color:rgba(0, 0, 0, 0.5);
+  border: 4px solid;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.text-green {
+  color: lightgreen;
+  padding: 10px;
+  font-family: Roboto;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 16px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-color: lightgreen;
+  border: 4px solid;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
