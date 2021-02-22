@@ -35,7 +35,7 @@ const CameraView = ({
         useEffect(() => {
           const interval = setInterval(() => {
             capture();
-          }, 2500);
+          }, 2000);
           return () => clearInterval(interval);
         }, [capture]);
 
@@ -51,10 +51,10 @@ const CameraView = ({
               
             })();
           }
-        }, [imgSrc, closeCamera, setResults, results?.summary.outcome]);
+        }, [imgSrc]);
       
         return (
-          <div className="body"> 
+          <div className="center"> 
 
             <h1 className="scan-your-id"> Scan your ID </h1>
             <h1 className="take-a-picture-it-m">Take a picture.
@@ -66,12 +66,12 @@ const CameraView = ({
               ref={webcamRef}
               screenshotFormat="image/jpeg"
               className={
-                results?.summary.outcome !== "Approved" ? "border-red" : "border-red"
+                results?.summary.outcome !== "Approved" ? "border-red" : "border-green"
               }
             />
             </div>
               {results?.summary.outcome !== undefined &&
-            <h1 className={ results?.summary.outcome !== "Approved" ? "text-red" : "text-green"}>
+            <h1 className={ results?.summary.outcome !== "Approved" ? "textC-red" : "textC-green"}>
           {results?.summary.outcome}</h1>
               }
 

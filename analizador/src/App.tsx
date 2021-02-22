@@ -4,6 +4,7 @@ import NavBar from './components/NavBar'
 import ButtonTakePicture from './components/ButtonTakePicture';
 import CameraView from './components/CameraView';
 import {ResType} from './services/api' 
+import imageBack from './assets/img/fondo.jpg'
 
 
 
@@ -15,8 +16,9 @@ function App() {
 
   return open ? (
     <>
-  <NavBar />
       <div className="center">
+      <img src={imageBack} alt="background" className="background" />
+      <div className="modal-cam">
       
         <CameraView 
           closeCamera={() => setOpen(!open)}
@@ -25,6 +27,7 @@ function App() {
           results={results}
           setResults={(newResults) => setResults(newResults)}
         />
+      </div>
       </div>
 
     </>
@@ -65,10 +68,11 @@ function App() {
                   <h1 className="text-red">REJECTED</h1>
                 )}
               </div>
-            
+            {results?.summary.outcome !== "Approved" &&
             <button onClick={() => setOpen(!open)} className="button-background">
               RETAKE PICTURE
             </button>
+            }
 
             </>
                         

@@ -18,8 +18,8 @@
 
   
 .bg {
-    height: 160px;
-    width: 260px;
+    height: 40vh;
+    width: 40vw;
     border-radius: 12px;
     background-color: #FFFFFF;
     box-shadow: 0 10px 20px -6px rgba(0,0,0,0.15);
@@ -35,8 +35,8 @@
   
   
   .button-background {
-    height: 48px;
-    width: 160px;
+    height: 10vh;
+    width: 15vw;
     border-radius: 24px;
     background-color: #2F0079;
     color: #FFFFFF;
@@ -49,8 +49,8 @@
   }
 
   .card-frame-empty {
-    height: 124px;
-    width: 217px;
+    height: 35vh;
+    width: 35vw;
     align-items: center;
     align-content: center;
     justify-content: center;

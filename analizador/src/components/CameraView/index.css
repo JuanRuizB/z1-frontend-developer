@@ -23,6 +23,7 @@
   }
 
   .button-cancel {
+    margin: 10%;
     height: 48px;
     width: 160px;
     border-radius: 24px;
@@ -36,4 +37,42 @@
     box-shadow: 0 10px 20px -5px rgba(47,0,121,0.3);
   }
   
+  
+
+.border-green {
+  color: lightgreen;
+  border: 4px solid;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.border-red {
+  
+  color: red;
+  border: 4px solid;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
+.textC-red {
+  color: red;
+  padding: 10px;
+  font-family: Roboto;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 16px;
+  
+}
+
+.textC-green {
+  color: lightgreen;
+  padding: 10px;
+  font-family: Roboto;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 16px;
+ 
+}
 
