@@ -71,15 +71,7 @@ function App() {
             </button>
 
             </>
-
-            // { results?.summary.outcome === 'Approved' ? (
-
-            // ) : (
-
-
-            // )}
-            
-            
+                        
           )}
           
           
